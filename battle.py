@@ -26,7 +26,7 @@ st.markdown("""
     }
 
     /* Ocultar elementos de Streamlit */
-    header, footer {visibility: hidden;}
+    # header, footer {visibility: hidden;}
     
     /* Header Glassmorphism */
     .glass-header {
