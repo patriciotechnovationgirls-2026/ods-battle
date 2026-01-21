@@ -4,7 +4,7 @@ import qrcode
 from io import BytesIO
 
 # 1. Configuración de página
-st.set_page_config(page_title="Technovation Battle", layout="wide", initial_sidebar_state="collapsed")
+st.set_page_config(page_title="Technovation Battle", layout="wide", initial_sidebar_state="expanded")
 
 # 2. Inyección de estilos (Tu versión original con el alto al 15%)
 st.markdown("""
