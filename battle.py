@@ -146,7 +146,7 @@ with st.sidebar:
         st.session_state.clear()
         st.rerun()
     st.divider()
-    url = "https://tu-app.streamlit.app/"
+    url = "https://ods-battlegit-meevc5coqeq7qxn2pwti8v.streamlit.app/"
     qr_img = qrcode.make(url)
     buf = BytesIO()
     qr_img.save(buf, format="PNG")
