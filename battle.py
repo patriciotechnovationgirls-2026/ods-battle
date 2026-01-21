@@ -150,7 +150,7 @@ with st.sidebar:
     qr_img = qrcode.make(url)
     buf = BytesIO()
     qr_img.save(buf, format="PNG")
-    st.image(buf.getvalue(), caption="¡Invita a otros!")
+    st.image(buf.getvalue(), caption="¡Invita a jugar!")
 
 # Header
 st.markdown(f"""
